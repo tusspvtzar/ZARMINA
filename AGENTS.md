@@ -1,10 +1,16 @@
-<!-- LOVABLE:BEGIN -->
-> [!IMPORTANT]
-> This project is connected to [Lovable](https://lovable.dev). Avoid rewriting
-> published git history — force pushing, or rebasing/amending/squashing commits
-> that are already pushed — as it rewrites history on Lovable's side and the
-> user will likely lose their project history.
->
-> Commits you push to the connected branch sync back to Lovable and show up in
-> the editor, so keep the branch in a working state.
-<!-- LOVABLE:END -->
+# Zarmina — Next.js App Router
+
+This is a Next.js 15 project using the App Router with Tailwind v4.
+
+## Stack
+- **Framework**: Next.js 15 (App Router)
+- **Styling**: Tailwind CSS v4 with OKLCH brand palette
+- **Fonts**: Cormorant Garamond (display) + Inter (body) via `next/font`
+- **Deployment**: Vercel
+
+## Project Structure
+- `src/app/` — Pages and layouts (file-based routing)
+- `src/components/` — Shared components (nav, footer, reveal)
+- `src/lib/` — Utility functions
+- `public/images/` — Static image assets
+- `_archive/` — Previous TanStack Start version (preserved)
