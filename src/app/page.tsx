@@ -37,24 +37,28 @@ const collections = [
 const products = [
   {
     name: "Firdaus Phiran",
+    handle: "firdaus-phiran",
     meta: "Aari on wool · Kashmir",
     price: "₹ 48,000",
     image: "/images/hero-teal.png",
   },
   {
     name: "Meher Kurta",
+    handle: "meher-kurta",
     meta: "Chikankari on mul · Lucknow",
     price: "₹ 22,500",
     image: "/images/artisan-brown.png",
   },
   {
     name: "Noor Ensemble",
+    handle: "noor-ensemble",
     meta: "Zardozi on raw silk",
     price: "₹ 72,000",
     image: "/images/product-blue.png",
   },
   {
     name: "Zeba Abaya",
+    handle: "zeba-abaya",
     meta: "Kashida on charcoal wool",
     price: "₹ 38,000",
     image: "/images/product-black.png",
@@ -380,7 +384,7 @@ function FeaturedProducts() {
         <div className="grid gap-x-6 gap-y-16 sm:grid-cols-2 lg:grid-cols-4">
           {products.map((p, i) => (
             <Reveal key={p.name} delay={i * 90}>
-              <div className="group cursor-pointer">
+              <Link href={`/product/${p.handle}`} className="group block cursor-pointer">
                 <div className="relative overflow-hidden aspect-[4/5] bg-beige">
                   <Image
                     src={p.image}
@@ -396,7 +400,7 @@ function FeaturedProducts() {
                   </button>
                   <div className="absolute bottom-0 left-0 right-0 p-4 opacity-0 translate-y-4 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-500">
                     <div className="btn-luxe-invert w-full text-[0.65rem]">
-                      Quick view
+                      View details
                     </div>
                   </div>
                 </div>
@@ -409,7 +413,7 @@ function FeaturedProducts() {
                   </div>
                   <div className="mt-3 text-sm text-charcoal">{p.price}</div>
                 </div>
-              </div>
+              </Link>
             </Reveal>
           ))}
         </div>

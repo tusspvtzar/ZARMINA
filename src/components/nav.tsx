@@ -1,8 +1,8 @@
 "use client";
 
 import Link from "next/link";
-import Image from "next/image";
 import { useEffect, useState } from "react";
+import { useCart } from "@/components/cart-provider";
 
 const links = [
   { href: "/collections", label: "Collections" },
@@ -18,6 +18,7 @@ export function Nav({
 }) {
   const [scrolled, setScrolled] = useState(!transparentOnTop);
   const [open, setOpen] = useState(false);
+  const { cartCount, openCart } = useCart();
 
   useEffect(() => {
     if (!transparentOnTop) return;
@@ -112,18 +113,32 @@ export function Nav({
                 {l.label}
               </Link>
             ))}
+            <button
+              onClick={openCart}
+              className={[
+                "text-[0.72rem] tracking-[0.22em] uppercase link-underline transition-colors cursor-pointer",
+                dark
+                  ? "text-ivory/90 hover:text-ivory"
+                  : "text-charcoal/80 hover:text-charcoal",
+              ].join(" ")}
+            >
+              Bag ({cartCount})
+            </button>
           </nav>
 
-          <div className="md:hidden justify-self-end" aria-hidden="true">
+          <button
+            onClick={openCart}
+            className="md:hidden justify-self-end"
+          >
             <span
               className={[
                 "text-[0.65rem] tracking-[0.22em] uppercase",
                 dark ? "text-ivory" : "text-charcoal",
               ].join(" ")}
             >
-              Bag (0)
+              Bag ({cartCount})
             </span>
-          </div>
+          </button>
         </div>
       </div>
 
