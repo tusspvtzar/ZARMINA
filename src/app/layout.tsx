@@ -50,7 +50,7 @@ export const metadata: Metadata = {
     google: "ru9knanMleEiGo1t2dqxFq4opvGqVR5P5iZgtPndzJw",
   },
   icons: {
-    icon: "/favicon.ico",
+    icon: "/favicon.ico?v=2",
   },
 };
 
