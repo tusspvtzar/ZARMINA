@@ -24,6 +24,16 @@ export const metadata: Metadata = {
   },
   description:
     "Zarmina curates handcrafted South Asian luxury — Kashmiri phirans, chikankari, and heirloom formals. Grace woven in every thread.",
+  keywords: [
+    "Zarmina",
+    "South Asian luxury",
+    "Kashmiri phirans",
+    "chikankari",
+    "heirloom formals",
+    "handcrafted fashion",
+    "ethnic wear",
+    "luxury clothing",
+  ],
   authors: [{ name: "Zarmina" }],
   openGraph: {
     title: "Zarmina — Grace woven in every thread",
@@ -35,6 +45,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
+  },
+  verification: {
+    google: "ru9knanMleEiGo1t2dqxFq4opvGqVR5P5iZgtPndzJw",
   },
   icons: {
     icon: "/favicon.ico",
