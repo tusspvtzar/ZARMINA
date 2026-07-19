@@ -21,36 +21,42 @@ export const metadata: Metadata = {
 const collections = [
   {
     name: "Kashmiri Phirans",
+    handle: "kashmiri-phirans",
     tag: "Heritage · Kashmir",
     image: "/images/hero-teal.png",
     copy: "Hand-embroidered woolen silhouettes, worked in aari and sozni over months.",
   },
   {
     name: "Chikankari",
+    handle: "chikankari",
     tag: "Whitework · Lucknow",
     image: "/images/artisan-brown.png",
     copy: "Whisper-fine shadow work stitched on mul, cotton, and silk-organza.",
   },
   {
     name: "Pakistani Formals",
+    handle: "pakistani-formals",
     tag: "Occasion · Lahore",
     image: "/images/product-blue.png",
     copy: "Ceremonial ensembles woven with heirloom zardozi, dabka, and gota.",
   },
   {
     name: "Lawn Collection",
+    handle: "lawn-collection",
     tag: "Seasonal",
     image: "/images/detail-teal.png",
     copy: "Featherlight cottons printed and embroidered for warmer days.",
   },
   {
     name: "Abayas & Outerwear",
+    handle: "abayas-outerwear",
     tag: "Everyday luxe",
     image: "/images/product-black.png",
     copy: "Modest silhouettes tailored in wool, silk, and structured cotton.",
   },
   {
     name: "Signature Embroidery",
+    handle: "signature-embroidery",
     tag: "Archive",
     image: "/images/detail-sleeve.png",
     copy: "Zarmina's continuing archive of motif studies and technique revivals.",
@@ -86,7 +92,7 @@ export default function CollectionsPage() {
           {collections.map((c, i) => (
             <Reveal key={c.name} delay={i * 80}>
               <Link
-                href="/collections"
+                href={`/collections/${c.handle}`}
                 className="group relative block overflow-hidden aspect-[4/5]"
               >
                 <Image

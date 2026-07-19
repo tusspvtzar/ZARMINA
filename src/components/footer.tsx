@@ -66,10 +66,10 @@ export function Footer() {
             © {new Date().getFullYear()} Zarmina — All rights reserved
           </p>
           <div className="flex gap-6 text-ivory/60 text-xs tracking-widest uppercase">
-            <a href="#" className="hover:text-gold transition-colors">
+            <a href="https://www.instagram.com/shopzarmina" className="hover:text-gold transition-colors">
               Instagram
             </a>
-            <a href="#" className="hover:text-gold transition-colors">
+            <a href="https://www.linkedin.com/company/zarmina-by-tabna-usman/" className="hover:text-gold transition-colors">
               LinkedIn
             </a>
             <a href="#" className="hover:text-gold transition-colors">
