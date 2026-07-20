@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 /* ============================================================
-   ZARMINA — Editorial luxury design system
+   DELAARA - Editorial luxury design system
    Royal purple, ivory, antique gold. Serif display + clean sans.
    All colors in oklch. Semantic tokens only in components.
    ============================================================ */
@@ -67,7 +67,7 @@
   --gold: oklch(0.735 0.105 82);            /* antique gold */
   --gold-soft: oklch(0.820 0.070 82);
 
-  /* Semantic mapping — luxury editorial */
+  /* Semantic mapping - luxury editorial */
   --background: var(--ivory);
   --foreground: var(--charcoal);
   --card: oklch(0.985 0.006 82);

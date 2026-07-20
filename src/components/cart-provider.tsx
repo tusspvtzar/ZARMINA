@@ -33,7 +33,7 @@ interface CartContextValue {
 
 const CartContext = createContext<CartContextValue | null>(null);
 
-const CART_ID_KEY = "zarmina_cart_id";
+const CART_ID_KEY = "delaara_cart_id";
 
 export function CartProvider({ children }: { children: ReactNode }) {
   const [cart, setCart] = useState<ShopifyCart | null>(null);
@@ -50,7 +50,7 @@ export function CartProvider({ children }: { children: ReactNode }) {
         if (existingCart && existingCart.totalQuantity > 0) {
           setCart(existingCart);
         } else {
-          // Cart expired or empty — clear stored ID
+          // Cart expired or empty - clear stored ID
           localStorage.removeItem(CART_ID_KEY);
         }
       }).catch(() => {
@@ -69,7 +69,7 @@ export function CartProvider({ children }: { children: ReactNode }) {
   const addToCart = useCallback(
     async (variantId: string, quantity = 1) => {
       if (!isShopifyConfigured()) {
-        // Demo mode — just open the drawer with a message
+        // Demo mode - just open the drawer with a message
         setIsOpen(true);
         return;
       }

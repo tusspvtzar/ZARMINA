@@ -39,13 +39,13 @@ export default function CaravanPage() {
             </Reveal>
             <Reveal delay={200}>
               <h1 className="font-display text-6xl md:text-8xl leading-[0.95]">
-                The Zarmina <em className="text-gold-soft">Caravan.</em>
+                The Delaara <em className="text-gold-soft">Caravan.</em>
               </h1>
             </Reveal>
             <Reveal delay={300}>
               <p className="mt-8 font-serif italic text-xl md:text-2xl text-ivory/90 leading-relaxed">
                 A private circle for those who appreciate craftsmanship beyond
-                trends — and want to help shape what Zarmina becomes.
+                trends - and want to help shape what Delaara becomes.
               </p>
             </Reveal>
 

@@ -93,7 +93,7 @@ export function Nav({
                 dark ? "text-ivory" : "text-charcoal",
               ].join(" ")}
             >
-              ZARMINA
+              DELAARA
             </span>
           </Link>
 
@@ -147,7 +147,7 @@ export function Nav({
         <div className="fixed inset-0 z-50 bg-ivory md:hidden fade-slow">
           <div className="flex items-center justify-between h-20 px-6 border-b border-border/60">
             <span className="font-display text-2xl tracking-wide text-charcoal">
-              ZARMINA
+              DELAARA
             </span>
             <button
               aria-label="Close"

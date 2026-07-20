@@ -1,5 +1,5 @@
 /* ============================================================
-   Shopify Storefront API — Client
+   Shopify Storefront API - Client
    ============================================================ */
 
 import type {

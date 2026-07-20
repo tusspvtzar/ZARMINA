@@ -13,7 +13,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!isShopifyConfigured()) {
     return {
       title: "Product",
-      description: "Product details — Zarmina",
+      description: "Product details - Delaara",
     };
   }
 
@@ -24,7 +24,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     title: product.title,
     description: product.description.slice(0, 160),
     openGraph: {
-      title: `${product.title} — Zarmina`,
+      title: `${product.title} - Delaara`,
       description: product.description.slice(0, 160),
       images: product.featuredImage ? [product.featuredImage.url] : [],
       url: `/product/${handle}`,
@@ -40,7 +40,7 @@ const fallbackProducts = [
     title: "Firdaus Phiran",
     description: "Hand-embroidered Kashmiri phiran in pure pashmina wool. Each motif is worked in traditional aari needlework by master artisans from Srinagar, taking over three months to complete. The phiran features intricate paisley borders and a flowing silhouette designed for both warmth and grace.",
     descriptionHtml: "",
-    vendor: "Zarmina",
+    vendor: "Delaara",
     productType: "Phiran",
     tags: ["kashmir", "aari", "wool"],
     availableForSale: true,
@@ -56,7 +56,7 @@ const fallbackProducts = [
     title: "Meher Kurta",
     description: "Whisper-fine chikankari on mul cotton from Lucknow. Shadow-work stitched by hand using techniques passed down across five generations. The kurta features delicate jaali and phanda work across the yoke and sleeves.",
     descriptionHtml: "",
-    vendor: "Zarmina",
+    vendor: "Delaara",
     productType: "Kurta",
     tags: ["lucknow", "chikankari", "cotton"],
     availableForSale: true,
@@ -72,7 +72,7 @@ const fallbackProducts = [
     title: "Noor Ensemble",
     description: "Ceremonial ensemble in raw silk with heirloom zardozi embroidery from Lahore. Metallic threads and sequins are hand-couched onto the fabric in traditional floral motifs. Includes a fully lined kurta, dupatta with four-sided border, and trousers.",
     descriptionHtml: "",
-    vendor: "Zarmina",
+    vendor: "Delaara",
     productType: "Formal",
     tags: ["lahore", "zardozi", "silk"],
     availableForSale: true,
@@ -88,7 +88,7 @@ const fallbackProducts = [
     title: "Zeba Abaya",
     description: "Kashida-embroidered abaya in charcoal wool. The geometric Kashida motifs are native to Kashmir and are worked in silk thread along the neckline, cuffs, and hem. Designed for everyday elegance with a structured A-line silhouette.",
     descriptionHtml: "",
-    vendor: "Zarmina",
+    vendor: "Delaara",
     productType: "Abaya",
     tags: ["kashmir", "kashida", "wool"],
     availableForSale: true,

@@ -101,7 +101,7 @@ const fallbackCollections: Record<
   "signature-embroidery": {
     title: "Signature Embroidery",
     description:
-      "Zarmina's continuing archive of motif studies and technique revivals.",
+      "Delaara's continuing archive of motif studies and technique revivals.",
     image: "/images/detail-sleeve.png",
     products: [],
   },
@@ -117,7 +117,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       title: collection.title,
       description: collection.description?.slice(0, 160),
       openGraph: {
-        title: `${collection.title} — Zarmina`,
+        title: `${collection.title} - Delaara`,
         description: collection.description?.slice(0, 160),
         images: collection.image ? [collection.image.url] : [],
         url: `/collections/${handle}`,
@@ -132,7 +132,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     title: fb.title,
     description: fb.description,
     openGraph: {
-      title: `${fb.title} — Zarmina`,
+      title: `${fb.title} - Delaara`,
       description: fb.description,
       url: `/collections/${handle}`,
     },

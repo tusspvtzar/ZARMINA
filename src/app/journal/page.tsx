@@ -7,10 +7,10 @@ import { Reveal } from "@/components/reveal";
 export const metadata: Metadata = {
   title: "Journal",
   description:
-    "Essays on craftsmanship, embroidery traditions, styling and the artisans behind Zarmina.",
+    "Essays on craftsmanship, embroidery traditions, styling and the artisans behind Delaara.",
   openGraph: {
-    title: "Journal — Zarmina",
-    description: "The Zarmina Journal — essays on craft and heritage.",
+    title: "Journal - Delaara",
+    description: "The Delaara Journal - essays on craft and heritage.",
     images: ["/images/artisan-brown.png"],
     url: "/journal",
   },

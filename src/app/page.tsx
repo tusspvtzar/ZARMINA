@@ -101,7 +101,7 @@ function Hero() {
         <div className="max-w-3xl">
           <div className="fade-slow text-ivory/80 eyebrow mb-6">
             <span className="hairline w-10 mr-4" />
-            The house of Zarmina
+            The house of Delaara
           </div>
           <h1
             className="reveal-up font-display text-ivory text-[3.4rem] leading-[0.95] sm:text-7xl md:text-[6.5rem] md:leading-[0.92] tracking-[-0.02em]"
@@ -170,10 +170,10 @@ function EditorialIntro() {
           </Reveal>
           <Reveal delay={240}>
             <p className="mt-8 text-charcoal/75 text-lg leading-[1.8] max-w-xl font-serif">
-              Zarmina is not a boutique. It is a considered archive of the
+              Delaara is not a boutique. It is a considered archive of the
               artisans, regions, and traditions that shape South Asian dress.
               Each garment we curate is chosen for the years it has taken to
-              learn — and the years it will live in your wardrobe.
+              learn - and the years it will live in your wardrobe.
             </p>
           </Reveal>
           <Reveal delay={340}>
@@ -270,7 +270,7 @@ function Philosophy() {
     {
       n: "04",
       t: "Conscious curation",
-      d: "We ship less, and choose slower — always.",
+      d: "We ship less, and choose slower - always.",
     },
   ];
   return (
@@ -334,7 +334,7 @@ function ArtisanStory() {
             </Reveal>
             <Reveal delay={200}>
               <p className="mt-8 text-ivory/75 leading-[1.9] font-serif text-lg">
-                Behind every embroidered motif is a family — a mother, a
+                Behind every embroidered motif is a family - a mother, a
                 grandfather, an entire village whose fingers have memorised the
                 same knots since childhood. We work directly with these ateliers
                 so their names, their pace, and their fair earnings travel with
@@ -446,7 +446,7 @@ function Caravan() {
         </Reveal>
         <Reveal delay={200}>
           <h2 className="font-display text-5xl md:text-7xl leading-[1.02]">
-            Join the <em className="text-gold-soft">Zarmina Caravan.</em>
+            Join the <em className="text-gold-soft">Delaara Caravan.</em>
           </h2>
         </Reveal>
         <Reveal delay={300}>
@@ -508,7 +508,7 @@ function Caravan() {
 function Testimonials() {
   const items = [
     {
-      q: "It arrived in a linen pouch, and I understood immediately. This is not clothing — it is inheritance.",
+      q: "It arrived in a linen pouch, and I understood immediately. This is not clothing - it is inheritance.",
       a: "Amaya R.",
       c: "Dubai",
     },
@@ -518,7 +518,7 @@ function Testimonials() {
       c: "London",
     },
     {
-      q: "Zarmina is the first brand that made me want to keep something forever.",
+      q: "Delaara is the first brand that made me want to keep something forever.",
       a: "Nadia F.",
       c: "Karachi",
     },
@@ -541,7 +541,7 @@ function Testimonials() {
                 </blockquote>
                 <figcaption className="mt-8 eyebrow text-charcoal">
                   {t.a}{" "}
-                  <span className="text-muted-foreground">— {t.c}</span>
+                  <span className="text-muted-foreground">- {t.c}</span>
                 </figcaption>
               </figure>
             </Reveal>
@@ -565,7 +565,7 @@ function InstagramGallery() {
     <section className="py-24 md:py-32 px-6 md:px-10">
       <div className="text-center mb-14">
         <Reveal>
-          <div className="eyebrow mb-4">@zarmina</div>
+          <div className="eyebrow mb-4">@delaara</div>
         </Reveal>
         <Reveal delay={100}>
           <h2 className="font-display text-4xl md:text-5xl text-charcoal">

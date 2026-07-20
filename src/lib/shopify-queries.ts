@@ -1,5 +1,5 @@
 /* ============================================================
-   Shopify Storefront API — GraphQL queries & mutations
+   Shopify Storefront API - GraphQL queries & mutations
    ============================================================ */
 
 /* ---------- Fragments ---------- */

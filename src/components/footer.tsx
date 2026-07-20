@@ -20,10 +20,10 @@ const cols = [
   {
     title: "Care",
     links: [
-      { href: "/about", label: "Shipping" },
-      { href: "/about", label: "Returns" },
-      { href: "/about", label: "Size Guide" },
-      { href: "/about", label: "Contact" },
+      { href: "/shipping", label: "Shipping & Returns" },
+      { href: "/privacy", label: "Privacy Policy" },
+      { href: "/terms", label: "Terms & Conditions" },
+      { href: "/contact", label: "Contact" },
     ],
   },
 ];
@@ -35,7 +35,7 @@ export function Footer() {
         <div className="grid gap-14 md:grid-cols-[1.4fr_1fr_1fr_1fr]">
           <div>
             <span className="font-display text-3xl tracking-wide text-ivory block mb-6">
-              ZARMINA
+              DELAARA
             </span>
             <p className="text-ivory/60 text-sm leading-relaxed max-w-xs font-serif italic text-lg">
               Grace woven in every thread. Curated handcrafted fashion
@@ -63,21 +63,21 @@ export function Footer() {
 
         <div className="mt-20 pt-8 border-t border-ivory/10 grid gap-4 md:grid-cols-[1fr_auto] items-center">
           <p className="text-ivory/40 text-xs tracking-widest uppercase">
-            © {new Date().getFullYear()} Zarmina — All rights reserved
+            © {new Date().getFullYear()} Delaara - All rights reserved
           </p>
           <div className="flex gap-6 text-ivory/60 text-xs tracking-widest uppercase">
-            <a href="https://www.instagram.com/shopzarmina" className="hover:text-gold transition-colors">
+            <a href="https://www.instagram.com/shopdelaara" className="hover:text-gold transition-colors">
               Instagram
             </a>
-            <a href="https://www.linkedin.com/company/zarmina-by-tabna-usman/" className="hover:text-gold transition-colors">
+            <a href="https://www.linkedin.com/company/delaara-by-tabna-usman/" className="hover:text-gold transition-colors">
               LinkedIn
             </a>
-            <a href="#" className="hover:text-gold transition-colors">
+            <Link href="/privacy" className="hover:text-gold transition-colors">
               Privacy
-            </a>
-            <a href="#" className="hover:text-gold transition-colors">
+            </Link>
+            <Link href="/terms" className="hover:text-gold transition-colors">
               Terms
-            </a>
+            </Link>
           </div>
         </div>
       </div>

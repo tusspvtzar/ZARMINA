@@ -21,13 +21,13 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: {
-    default: "Zarmina — Grace woven in every thread",
-    template: "%s — Zarmina",
+    default: "Delaara - Grace woven in every thread",
+    template: "%s - Delaara",
   },
   description:
-    "Zarmina curates handcrafted South Asian luxury — Kashmiri phirans, chikankari, and heirloom formals. Grace woven in every thread.",
+    "Delaara curates handcrafted South Asian luxury - Kashmiri phirans, chikankari, and heirloom formals. Grace woven in every thread.",
   keywords: [
-    "Zarmina",
+    "Delaara",
     "South Asian luxury",
     "Kashmiri phirans",
     "chikankari",
@@ -36,13 +36,13 @@ export const metadata: Metadata = {
     "ethnic wear",
     "luxury clothing",
   ],
-  authors: [{ name: "Zarmina" }],
+  authors: [{ name: "Delaara" }],
   openGraph: {
-    title: "Zarmina — Grace woven in every thread",
+    title: "Delaara - Grace woven in every thread",
     description:
       "A curated house of handcrafted South Asian luxury. Timeless artistry for the modern wardrobe.",
     type: "website",
-    siteName: "Zarmina",
+    siteName: "Delaara",
     locale: "en_US",
   },
   twitter: {

@@ -1,5 +1,5 @@
 /* ============================================================
-   Shopify Storefront API — TypeScript types
+   Shopify Storefront API - TypeScript types
    ============================================================ */
 
 export interface ShopifyImage {

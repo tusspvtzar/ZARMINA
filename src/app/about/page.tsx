@@ -8,10 +8,10 @@ import { Reveal } from "@/components/reveal";
 export const metadata: Metadata = {
   title: "Our Story",
   description:
-    "Zarmina is a curated house of South Asian handcrafted luxury — honouring the artisans, regions, and traditions behind every garment.",
+    "Delaara is a curated house of South Asian handcrafted luxury - honouring the artisans, regions, and traditions behind every garment.",
   openGraph: {
-    title: "Our Story — Zarmina",
-    description: "The maison, the mission, the makers behind Zarmina.",
+    title: "Our Story - Delaara",
+    description: "The maison, the mission, the makers behind Delaara.",
     images: ["/images/artisan-brown.png"],
     url: "/about",
   },
@@ -35,7 +35,7 @@ export default function AboutPage() {
         <div className="relative z-10 flex h-full items-end px-6 md:px-16 pb-20">
           <div>
             <div className="fade-slow eyebrow text-gold-soft mb-6">
-              The House of Zarmina
+              The House of Delaara
             </div>
             <h1 className="reveal-up font-display text-ivory text-5xl md:text-8xl leading-[0.95]">
               A quiet <em className="text-gold-soft">devotion</em>
@@ -73,7 +73,7 @@ export default function AboutPage() {
         <div className="bg-beige px-8 md:px-20 py-24 flex items-center">
           <div className="max-w-lg">
             <Reveal>
-              <div className="eyebrow mb-6">Why Zarmina exists</div>
+              <div className="eyebrow mb-6">Why Delaara exists</div>
             </Reveal>
             <Reveal delay={100}>
               <h2 className="font-display text-4xl md:text-5xl leading-tight">
@@ -83,8 +83,8 @@ export default function AboutPage() {
             </Reveal>
             <Reveal delay={200}>
               <p className="mt-8 text-charcoal/75 leading-[1.9] font-serif text-lg">
-                Fast fashion has taught us to forget. Zarmina asks you to
-                remember — the maker, the region, the technique, the hours held
+                Fast fashion has taught us to forget. Delaara asks you to
+                remember - the maker, the region, the technique, the hours held
                 inside a single sleeve. We work directly with ateliers across
                 Kashmir, Lucknow, and Lahore, at their pace, with their names on
                 every tag.
@@ -107,7 +107,7 @@ export default function AboutPage() {
             </Reveal>
             <Reveal delay={200}>
               <p className="mt-8 text-ivory/75 leading-[1.9] font-serif text-lg">
-                We are building the house we always wished existed — one where a
+                We are building the house we always wished existed - one where a
                 Kashmiri phiran sits beside a linen trouser, where chikankari
                 feels as current as it is centuries-old, and where every purchase
                 quietly sustains the hands that made it.

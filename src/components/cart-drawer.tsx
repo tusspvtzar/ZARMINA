@@ -184,7 +184,7 @@ export function CartDrawer() {
           )}
         </div>
 
-        {/* Footer — only when cart has items */}
+        {/* Footer - only when cart has items */}
         {configured && !isEmpty && (
           <div className="shrink-0 border-t border-border/60 px-6 py-6 space-y-4">
             <div className="flex justify-between items-center">

@@ -8,10 +8,10 @@ import { Reveal } from "@/components/reveal";
 export const metadata: Metadata = {
   title: "Collections",
   description:
-    "Kashmiri phirans, chikankari, formals, and lawn — the Zarmina collections, curated by tradition.",
+    "Kashmiri phirans, chikankari, formals, and lawn - the Delaara collections, curated by tradition.",
   openGraph: {
-    title: "Collections — Zarmina",
-    description: "Explore the Zarmina collections.",
+    title: "Collections - Delaara",
+    description: "Explore the Delaara collections.",
     images: ["/images/hero-teal.png"],
     url: "/collections",
   },
@@ -59,7 +59,7 @@ const collections = [
     handle: "signature-embroidery",
     tag: "Archive",
     image: "/images/detail-sleeve.png",
-    copy: "Zarmina's continuing archive of motif studies and technique revivals.",
+    copy: "Delaara's continuing archive of motif studies and technique revivals.",
   },
 ];
 
